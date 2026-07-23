@@ -1,11 +1,17 @@
-# Delta Exchange Product Dossier — Phone-safe build
+# Social Preview Patch
 
-A flat, Vercel-ready static publication. All HTML pages contain their styling and JavaScript inline to avoid missing-folder problems during phone uploads.
+Replace these four files in the GitHub repository root:
 
-Upload every file in this directory to the repository root.
+- index.html
+- about.html
+- evidence.html
+- methodology.html
 
+This patch adds:
+- Absolute Open Graph image URL
+- Canonical URLs
+- og:url
+- Image dimensions and type
+- X/Twitter large-image metadata
 
-## Contact
-
-- LinkedIn: https://www.linkedin.com/in/rohit-singh-panwar
-- Email: rohitsinghpanwar190796@gmail.com
+Keep the existing `social-card.jpg` file in the repository root.

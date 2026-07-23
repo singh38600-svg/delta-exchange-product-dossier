@@ -1,0 +1,6 @@
+PHONE-SAFE DEPLOYMENT
+
+Upload every file in this folder to the ROOT of your GitHub repository.
+Do not upload the ZIP itself.
+
+The HTML pages contain their CSS and JavaScript directly, so the design will still load even when GitHub mobile cannot upload folders.
